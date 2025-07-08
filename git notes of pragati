@@ -1,0 +1,31 @@
+git and GitHub-----for source code management (SCM)
+	
+	SCM has two types 
+		1 DVCS	Distributed version control system
+
+		2 CVCS	Centralised version control system
+		
+
+
+git init		it wil install .git in local repo so that we can execute all git commands
+
+git config --global user.name "pragati029"		configure our GitHub username with local repo
+
+git config --global user.email "pragatil maild id"	configure our GitHub email with local repo
+
+git config --global user.name		to check user name
+git config --global user.email		to check user email
+
+
+git clone "https://github.com/patil002/pragati.git"	to get copy of code on our local repository
+
+
+different status of files
+	untracked-----> files r in working directory
+	staged------> files r in staging area
+	
+git workflow 
+
+	1  working directory (local repository)------>staging area		git add 
+	2  staging area--->commit stage						git commit -m "mesage"
+	3  commit stage------>remote repository					git push origin main
